@@ -34,7 +34,7 @@ export class Basecamp4OAuth2Api implements ICredentialType {
 			displayName: 'Refresh Token URL',
 			name: 'refreshTokenUrl',
 			type: 'hidden',
-			default: 'https://launchpad.37signals.com/authorization/token?type=web_server',
+			default: 'https://launchpad.37signals.com/authorization/token?type=refresh',
 		},
 		{
 			displayName: 'Grant Type',
